@@ -66,4 +66,6 @@ def animate(i):
 ani = animation.FuncAnimation(fig, animate, frames=num_frames, init_func=init, blit=True, interval=50)
 
 # Display the animation
-plt.show()
+# plt.show()
+writer = animation.PillowWriter(fps=60, metadata=dict(artist='John Andrew Kypriotakis'))
+ani.save('images/shg.gif', writer=writer)

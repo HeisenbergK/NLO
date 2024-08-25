@@ -30,4 +30,5 @@ plt.grid(True)
 # plt.ylim(0, 2 * w0cw)
 
 # Show plot
-plt.show()
+#plt.show()
+plt.savefig('images/attovscw.svg')

@@ -47,4 +47,5 @@ plt.grid(True)
 
 # Show plot
 plt.tight_layout()
-plt.show()
+# plt.show()
+plt.savefig('images/kerr_index.svg')

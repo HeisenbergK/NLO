@@ -31,4 +31,5 @@ plt.legend()
 plt.grid(True)
 
 # Show plot
-plt.show()
+# plt.show()
+plt.savefig('images/quantum_noise.svg')

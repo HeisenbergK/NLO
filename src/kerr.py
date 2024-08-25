@@ -62,4 +62,5 @@ plt.ylabel('Time (s)')
 plt.colorbar(label='Intensity (W/m^2)')
 
 plt.tight_layout()
-plt.show()
+# plt.show()
+plt.savefig('images/kerr_profiles.svg')
